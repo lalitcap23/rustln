@@ -3,7 +3,7 @@ fn main() {
     println!("Value of x: {}", x);
 
     let s1 = String::from("Hello, Rust!");
-    let s2 = s1; // Ownership of `s1` moves to `s2`
+    let s2 = s1;
     println!("s2: {}", s2);
 
     let s3 = String::from("Ownership to function");
