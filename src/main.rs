@@ -51,7 +51,9 @@ fn print_direction(direction: Direction) {
     match direction {
         Direction::North => println!("Heading North!"),
         Direction::South => println!("Heading South!"),
+        Direction::East => println!("Heading west !"),
         Direction::East => println!("Heading East!"),
+
     }
 }
 
