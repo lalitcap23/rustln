@@ -55,10 +55,15 @@ fn print_direction(direction: Direction) {
         Direction::East => println!("Heading East!"),
 
 
+   let s3 = String::from("Ownership to function");  
    let s3 = String::from("Ownership to function");   
-   
-     take_ownership(s3);
+   let s3 = String::from("Ownership to function");   
 
+   let s3 = String::from("Ownership to function");   
+
+ 
+   
+   
     }
 }
 
